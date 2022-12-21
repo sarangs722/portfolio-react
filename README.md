@@ -7,4 +7,4 @@ Portfolio Website made with React.JS
 
 ![Screenshot (17)](https://user-images.githubusercontent.com/51827238/205586314-0b40c2cc-d1c3-4bdc-a7d9-61ee1c27071b.png)
 
-Deployed at https://sarangportfolio.herokuapp.com/
+Deployed at [https://sarangportfolio.herokuapp.com/](https://sarangportfolio.netlify.app/)
