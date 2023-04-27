@@ -18,3 +18,14 @@
   --toast-success: #0CBFAE;
   --loader-color: #0CBFAE
 }
+
+
+
+.loadingScreen {
+  background-color: #00113F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}

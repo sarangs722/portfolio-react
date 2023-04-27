@@ -60,13 +60,13 @@ export default function Profile() {
                     </div>
 
                     <div className="profile-options">
-                        <button className="btn primary-btn" 
-                        onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
+                        <button className="btn primary-btn"
+                            onClick={() => ScrollService.scrollHandler.scrollToHireMe()}>
                             Hire Me
                         </button>
-                        <a href="https://drive.google.com/file/d/17qgjkMCqCRKb7iLtx2mJQ4gC5kun_syd/view?usp=sharing" target="blank">
+                        <a href="https://drive.google.com/file/d/1X8sD1iJriFIju7BWueFTkvAjUk9q-l-F/view" target="blank">
                             <button className="btn highlighted-btn">
-                                    Get Resume
+                                Get Resume
                             </button>
                         </a>
                     </div>
@@ -77,7 +77,7 @@ export default function Profile() {
 
                     <div className="profile-picture-background">
 
-                        
+
 
                     </div>
 
