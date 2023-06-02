@@ -8,10 +8,11 @@ import ScreenHeading from '../../utilities/ScreenHeading/ScreenHeading'
 import ScrollService from '../../utilities//ScrollService'
 import Animations from '../../utilities/Animations';
 
+import qrFaceApp from '../../img/qrFace-project.png';
 import downloadManagerPic from '../../img/download-manager.png';
 import networkDesign from '../../img/network-design.png';
 import unscrambleApp from '../../img/unscramble-app.jpg';
-import newsletterBackend from '../../img/newsletter-backend.png';
+// import newsletterBackend from '../../img/newsletter-backend.png';
 
 export default function Projects(props) {
     let fadeInScreenHandler = (screen) => {
@@ -28,8 +29,8 @@ export default function Projects(props) {
         animateIn: "bounceInRight",
         animateOut: "bounceOutRight",
         dots: true,
-        autoplay: false,
-        smartSpeed: 1000,
+        autoplay: true,
+        smartSpeed: 4000,
         responsive: {
             0: {
                 items: 1,
@@ -58,8 +59,9 @@ export default function Projects(props) {
                     <div className="row">
                         <OwlCarousel className="owl-carousel" id="projects-carousel" {...options}>
 
-                            <div className="col-lg-12">
 
+
+                            <div className="col-lg-12">
                                 <a href="https://github.com/sarangs722/Download-Manager-Core-Java-Swing" target="blank">
                                     <div className="proji-item">
                                         <div className="proji-image">
@@ -72,6 +74,25 @@ export default function Projects(props) {
                                             </h5>
                                             <p>
                                                 Core Java, Swing GUI
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div className="col-lg-12">
+                                <a href="https://github.com/sarangs722/QRCode-FacialRecog-Attendance-System" target="blank">
+                                    <div className="proji-item">
+                                        <div className="proji-image">
+                                            <img src={qrFaceApp} alt="QR + Face Recogn application"></img>
+                                        </div>
+
+                                        <div className="proji-info">
+                                            <h5>
+                                                QR + Facial Recognition Attendance System
+                                            </h5>
+                                            <p>
+                                                Android (Kotlin) + Web (Node.js)
                                             </p>
                                         </div>
                                     </div>
@@ -117,7 +138,7 @@ export default function Projects(props) {
                                 </a>
                             </div>
 
-                            <div className="col-lg-12">
+                            {/* <div className="col-lg-12">
                                 <a href="https://github.com/sarangs722/NewsLetterSignupProject" target="blank">
                                     <div className="proji-item">
                                         <div className="proji-image">
@@ -134,14 +155,14 @@ export default function Projects(props) {
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div> */}
 
                         </OwlCarousel>
-                        
+
 
                     </div>
 
-                    
+
 
                 </div>
             </section>
